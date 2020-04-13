@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="201.46">
+<testcase classname="DemoWebShop" name="Registration" time="20.201">
+<system-out><![CDATA[Given User launches webshop page............................................passed
+When User enters valid credentials..........................................passed
+Then User Registered successfully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebShop" name="Login successfully" time="18.153">
+<system-out><![CDATA[Given User launches demowebshop page........................................passed
+When User enters valid credentials "<email>" and "<password>"...............passed
+Then User can login successfully............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebShop" name="Product search and AddtoCart" time="24.881">
+<system-out><![CDATA[Given the user launches the chrome application..............................passed
+When the user logged into the home page.....................................passed
+Then the user search the product............................................passed
+Then the user give the specifications.......................................passed
+Then the user adds the product to the cart..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebShop" name="Wishlish and recently viewed products" time="35.528">
+<system-out><![CDATA[Given the user launches  chrome.............................................passed
+When the user navigated into the home page..................................passed
+Then the user adds some products to wishlist................................passed
+And the user checks the recently viewed products............................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebShop" name="Add Address" time="50.397">
+<system-out><![CDATA[Given user launches to chrome page..........................................passed
+When user logged into the home page.........................................passed
+Then the user can add the address...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebShop" name="Change Password" time="26.3">
+<system-out><![CDATA[Given The user launches  the chrome.........................................passed
+When The user login  to the site............................................passed
+Then The user enters "12345678" and "23245890" and "23245890"...............passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebShop" name="Change Password 2" time="24.412">
+<system-out><![CDATA[Given The user launches  the chrome.........................................passed
+When The user login  to the site............................................passed
+Then The user enters "23245890" and "demonew" and "demonew".................passed
+]]></system-out>
+</testcase>
+</testsuite>

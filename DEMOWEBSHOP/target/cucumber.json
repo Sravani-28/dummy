@@ -1,0 +1,451 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-13T02:28:55.087Z",
+        "line": 22,
+        "name": "Registration",
+        "description": "",
+        "id": "demowebshop;registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15102000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User launches webshop page",
+            "match": {
+              "location": "com.stepdefination.Test_WebshopRegister.user_launches_webshop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3264000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters valid credentials",
+            "match": {
+              "location": "com.stepdefination.Test_WebshopRegister.user_enters_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1595000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Registered successfully",
+            "match": {
+              "location": "com.stepdefination.Test_WebshopRegister.user_Registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC01"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-13T02:29:15.342Z",
+        "line": 28,
+        "name": "Login successfully",
+        "description": "",
+        "id": "demowebshop;login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14658000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User launches demowebshop page",
+            "match": {
+              "location": "com.stepdefination.Test_LoginPage.user_launches_demowebshop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2791000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters valid credentials \"\u003cemail\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.stepdefination.Test_LoginPage.user_enters_valid_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User can login successfully",
+            "match": {
+              "location": "com.stepdefination.Test_LoginPage.user_can_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC02"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-13T02:29:33.500Z",
+        "line": 35,
+        "name": "Product search and AddtoCart",
+        "description": "",
+        "id": "demowebshop;product-search-and-addtocart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13416000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user launches the chrome application",
+            "match": {
+              "location": "com.stepdefination.TestAddtoCart.the_user_launches_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3525000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user logged into the home page",
+            "match": {
+              "location": "com.stepdefination.TestAddtoCart.the_user_logged_into_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6362000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user search the product",
+            "match": {
+              "location": "com.stepdefination.TestAddtoCart.the_user_search_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 492000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user give the specifications",
+            "match": {
+              "location": "com.stepdefination.TestAddtoCart.the_user_give_the_specifications()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1082000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user adds the product to the cart",
+            "match": {
+              "location": "com.stepdefination.TestAddtoCart.the_user_adds_the_product_to_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC03"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-13T02:29:58.388Z",
+        "line": 43,
+        "name": "Wishlish and recently viewed products",
+        "description": "",
+        "id": "demowebshop;wishlish-and-recently-viewed-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14804000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user launches  chrome",
+            "match": {
+              "location": "com.stepdefination.Test_ProductWishlist.the_user_launches_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3650000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user navigated into the home page",
+            "match": {
+              "location": "com.stepdefination.Test_ProductWishlist.the_user_navigated_into_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13995000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user adds some products to wishlist",
+            "match": {
+              "location": "com.stepdefination.Test_ProductWishlist.the_user_adds_some_products_to_wishlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3070000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user checks the recently viewed products",
+            "match": {
+              "location": "com.stepdefination.Test_ProductWishlist.the_user_checks_the_recently_viewed_products()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC04"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-13T02:30:33.920Z",
+        "line": 51,
+        "name": "Add Address",
+        "description": "",
+        "id": "demowebshop;add-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30241000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user launches to chrome page",
+            "match": {
+              "location": "com.stepdefination.Test_AddAddress.user_launches_to_chrome_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3425000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user logged into the home page",
+            "match": {
+              "location": "com.stepdefination.Test_AddAddress.user_logged_into_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16726000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user can add the address",
+            "match": {
+              "location": "com.stepdefination.Test_AddAddress.the_user_can_add_the_address()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tc05_Address"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-13T02:31:24.322Z",
+        "line": 65,
+        "name": "Change Password",
+        "description": "",
+        "id": "demowebshop;change-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15744000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "The user launches  the chrome",
+            "match": {
+              "location": "com.stepdefination.Test_ChangePassword.the_user_launches_the_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3638000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "The user login  to the site",
+            "match": {
+              "location": "com.stepdefination.Test_ChangePassword.the_user_login_to_the_site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6908000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "The user enters \"12345678\" and \"23245890\" and \"23245890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"23245890\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"23245890\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.stepdefination.Test_ChangePassword.the_user_enters_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC06_ChangePassword"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-13T02:31:50.625Z",
+        "line": 66,
+        "name": "Change Password",
+        "description": "",
+        "id": "demowebshop;change-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14950000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "The user launches  the chrome",
+            "match": {
+              "location": "com.stepdefination.Test_ChangePassword.the_user_launches_the_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4152000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "The user login  to the site",
+            "match": {
+              "location": "com.stepdefination.Test_ChangePassword.the_user_login_to_the_site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5307000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "The user enters \"23245890\" and \"demonew\" and \"demonew\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23245890\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"demonew\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"demonew\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.stepdefination.Test_ChangePassword.the_user_enters_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC06_ChangePassword"
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop",
+    "description": "",
+    "id": "demowebshop",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/DemoWebShop/DemoWebShop.feature",
+    "tags": []
+  }
+]
